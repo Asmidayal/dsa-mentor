@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "DSA Mentor",
+  "version": "1.0.0",
+  "description": "Progressive hints, solution, and complexity for DSA problems.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DSA Mentor"
+  },
+  "background": {
+    "service_worker": "src/background/serviceWorker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://www.geeksforgeeks.org/*",
+        "https://codeforces.com/*",
+        "https://www.hackerrank.com/challenges/*"
+      ],
+      "js": [
+        "src/content/ProblemExtractor.js",
+        "src/content/Content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "http://127.0.0.1:5000/*",
+    "https://leetcode.com/*",
+    "https://www.geeksforgeeks.org/*",
+    "https://codeforces.com/*",
+    "https://www.hackerrank.com/*"
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DSA Mentor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>DSA Mentor</h1>
+        <p>Hints first. Solution when you need it.</p>
+      </header>
+
+      <p id="status">Reading this page…</p>
+
+      <section id="problem" class="card hidden">
+        <span id="platform" class="badge"></span>
+        <h2 id="title"></h2>
+      </section>
+
+      <button id="generate" class="hidden">Generate 3 progressive hints</button>
+
+      <div id="hints" class="hidden"></div>
+      <button id="reveal" class="hidden">Reveal full solution</button>
+      <section id="solution" class="card hidden"></section>
+      <section id="complexity" class="card hidden"></section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
