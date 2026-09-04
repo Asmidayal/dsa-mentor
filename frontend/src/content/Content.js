@@ -44,7 +44,7 @@ function addFloatingLogo() {
   `;
 
   const img = document.createElement("img");
-  img.src = chrome.runtime.getURL("icons/icon48.png");
+  img.src = chrome.runtime.getURL("icons/iconn48.png");
   img.alt = "DSA Mentor";
   img.style.cssText = "width:100%;height:100%;object-fit:cover;display:block;";
   btn.appendChild(img);
