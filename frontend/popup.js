@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:5000/api/ai/analyze";
+const API =  "https://dsa-mentor-qev6.onrender.com/api/ai/analyze";
 
 const statusEl = document.getElementById("status");
 const problemEl = document.getElementById("problem");
