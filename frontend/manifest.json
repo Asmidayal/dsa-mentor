@@ -5,7 +5,15 @@
   "description": "Progressive hints, solution, and complexity for DSA problems.",
   "action": {
     "default_popup": "popup.html",
-    "default_title": "DSA Mentor"
+    "default_title": "DSA Mentor",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "background": {
     "service_worker": "src/background/serviceWorker.js"
@@ -34,4 +42,5 @@
     "https://codeforces.com/*",
     "https://www.hackerrank.com/*"
   ]
+
 }
