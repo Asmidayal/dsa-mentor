@@ -41,6 +41,17 @@
     "https://www.geeksforgeeks.org/*",
     "https://codeforces.com/*",
     "https://www.hackerrank.com/*"
-  ]
+  ],
+  "web_accessible_resources": [
+  {
+    "resources": ["icons/icon48.png", "icons/icon128.png"],
+    "matches": [
+      "https://leetcode.com/*",
+      "https://www.geeksforgeeks.org/*",
+      "https://codeforces.com/*",
+      "https://www.hackerrank.com/*"
+    ]
+  }
+]
 
 }
