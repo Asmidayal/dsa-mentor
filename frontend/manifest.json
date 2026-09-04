@@ -8,12 +8,12 @@
     "default_title": "DSA Mentor",
     "default_icon": {
       "48": "icons/iconn48.png",
-      "128": "icons/icon128.png"
+      "128": "icons/iconn128.png"
     }
   },
   "icons": {
     "48": "icons/iconn48.png",
-    "128": "icons/icon128.png"
+    "128": "icons/iconn128.png"
   },
   "background": {
     "service_worker": "src/background/serviceWorker.js"
