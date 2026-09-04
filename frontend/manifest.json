@@ -44,7 +44,7 @@
   ],
   "web_accessible_resources": [
   {
-    "resources": ["icons/icon48.png", "icons/icon128.png"],
+    "resources": ["icons/iconn48.png", "icons/iconn128.png"],
     "matches": [
       "https://leetcode.com/*",
       "https://www.geeksforgeeks.org/*",
